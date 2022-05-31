@@ -1,0 +1,13 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "launch",
+            "type": "node",
+            "request": "launch",
+            "program": "${workspaceRoot}/dist/index.js",
+            "args": ["-r", "ts-node/register", "${relativeFile}"],
+            "cwd": "${workspaceRoot}",
+        }
+    ]
+}
